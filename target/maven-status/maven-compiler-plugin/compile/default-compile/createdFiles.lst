@@ -1,0 +1,4 @@
+testScenarios\MouseHoverActions.class
+testScenarios\SwitchingWindows.class
+testScenarios\DynDataHandling.class
+testScenarios\CountLinks.class

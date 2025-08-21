@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="44.602" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg\target\test-classes;C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire16726367613198626184\surefirebooter-20250821225702186_3.jar C:\Users\HP\AppData\Local\Temp\surefire16726367613198626184 2025-08-21T22-57-01_953-jvmRun1 surefire-20250821225702186_1tmp surefire_0-20250821225702186_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg\target\test-classes;C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\HP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\HP\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire16726367613198626184\surefirebooter-20250821225702186_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\sel\sel@10PM(IST)_new\workspace\MavenWithTestNg"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\HP\Downloads\terraform_1.7.4_windows_amd64;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\PuTTY\;C:\minikube;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\k8s;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="switchWin" classname="testScenarios.SwitchingWindows" time="9.123">
+    <system-out><![CDATA[total window id=2
+Win1 session id=023CB694C9A966DB66654312F1312AA0
+Win2 session id=A738294B8B5E02A92B954BF0E68E23DA
+Window 1 title=W3Schools Tryit Editor
+Window 2 title=W3Schools Online Web Tutorials
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 21, 2025 10:57:03 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
+Aug 21, 2025 10:57:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+]]></system-err>
+  </testcase>
+  <testcase name="dragAndDrop" classname="testScenarios.MouseHoverActions" time="9.723">
+    <system-err><![CDATA[Aug 21, 2025 10:57:12 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
+Aug 21, 2025 10:57:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+]]></system-err>
+  </testcase>
+  <testcase name="datePicker" classname="testScenarios.MouseHoverActions" time="7.591">
+    <system-out><![CDATA[August	2025
+September	2025
+October	2025
+November	2025
+December	2025
+January	2026
+February	2026
+March	2026
+April	2026
+May	2026
+]]></system-out>
+    <system-err><![CDATA[Aug 21, 2025 10:57:22 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
+Aug 21, 2025 10:57:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+]]></system-err>
+  </testcase>
+  <testcase name="dynCalCaptcha" classname="testScenarios.DynDataHandling" time="14.386">
+    <system-out><![CDATA[What is 9 + 4
+9	4
+Result=13
+Calculation is correct
+What is 8 + 1
+8	1
+Result=9
+Calculation is correct
+What is 8 + 1
+8	1
+Result=9
+Calculation is correct
+]]></system-out>
+    <system-err><![CDATA[Aug 21, 2025 10:57:29 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
+Aug 21, 2025 10:57:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyLinkUrls" classname="testScenarios.CountLinks" time="3.16">
+    <system-out><![CDATA[total expected links=25
+total number of links=25
+https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header
+https://about.google/?fg=1&utm_source=google-IN&utm_medium=referral&utm_campaign=hp-header
+Link Matched..
+https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN
+https://store.google.com/IN?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-IN
+Link Matched..
+https://mail.google.com/mail/&ogbl
+https://mail.google.com/mail/&ogbl
+Link Matched..
+https://www.google.com/imghp?hl=en&ogbl
+https://www.google.com/imghp?hl=en&ogbl
+Link Matched..
+https://www.google.co.in/intl/en/about/products
+https://www.google.co.in/intl/en/about/products
+Link Matched..
+https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+Link Matched..
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCBg
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCBg
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCBk
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCBk
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCBo
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCBo
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCBs
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCBs
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCBw
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCBw
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCB0
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCB0
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCB4
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCB4
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCB8
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCB8
+Link not Matched...
+https://www.google.com/setprefs?sig=0_hkIdLSO4bQonozPv4FHfdWAjbSs%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiTjfrBtpyPAxWNoGMGHR_gDR0Q2ZgBCCA
+https://www.google.com/setprefs?sig=0_2PaHfGv7NmVU9UbJD2AaRWhM0LY%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjeyYGc95SPAxWXR2wGHdmDJKoQ2ZgBCCA
+Link not Matched...
+https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+https://www.google.com/intl/en_in/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+Link Matched..
+https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+Link Matched..
+https://google.com/search/howsearchworks/?fg=1
+https://google.com/search/howsearchworks/?fg=1
+Link Matched..
+https://policies.google.com/privacy?hl=en-IN&fg=1
+https://policies.google.com/privacy?hl=en-IN&fg=1
+Link Matched..
+https://policies.google.com/terms?hl=en-IN&fg=1
+https://policies.google.com/terms?hl=en-IN&fg=1
+Link Matched..
+https://www.google.com/preferences?hl=en-IN&fg=1
+https://www.google.com/preferences?hl=en-IN&fg=1
+Link Matched..
+https://www.google.com/advanced_search?hl=en-IN&fg=1
+https://www.google.com/advanced_search?hl=en-IN&fg=1
+Link Matched..
+https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com
+https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1&cctld=com
+Link Matched..
+https://www.google.com/history/optout?hl=en-IN&fg=1
+https://www.google.com/history/optout?hl=en-IN&fg=1
+Link Matched..
+https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+Link Matched..
+]]></system-out>
+    <system-err><![CDATA[Aug 21, 2025 10:57:44 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: There was an error managing msedgedriver (error sending request for url (https://msedgedriver.azureedge.net/LATEST_RELEASE_139_WINDOWS)); using driver found in the cache
+Aug 21, 2025 10:57:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+]]></system-err>
+  </testcase>
+</testsuite>
